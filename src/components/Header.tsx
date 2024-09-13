@@ -6,7 +6,7 @@ const Header = () => {
       <a className="flex items-center justify-center" href="/">
         <Leaf className="h-6 w-6 text-yellow-400" />
         <span className="ml-2 text-lg font-bold text-white">
-          AgriTech Solutions
+          Krishi Cube
         </span>
       </a>
       <nav className="ml-auto flex gap-4 sm:gap-6 items-center">

@@ -10,8 +10,8 @@ const Team = () => {
                   Our diverse team of engineers, designers, and agricultural experts is working tirelessly to bring this revolutionary product to life.
                 </p>
               </div>
-              <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
-                {['Jane Doe', 'John Smith', 'Alice Johnson'].map((name, index) => (
+              <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
+                {['Suman Pal', 'Aniket Gupta'].map((name, index) => (
                   <div key={index} className="flex flex-col items-center space-y-2">
                     <div className="h-24 w-24 rounded-full bg-gradient-to-br from-green-200 to-yellow-100" />
                     <h3 className="text-xl font-bold text-green-700">{name}</h3>

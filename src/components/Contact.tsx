@@ -55,7 +55,7 @@ const Contact = () => {
                             </div>
                             <div className="flex items-center space-x-2">
                                 <Mail className="w-5 h-5 text-green-600" />
-                                <a href="mailto:info@agritech-solutions.com" className="text-gray-600 hover:text-green-700 hover:underline">info@agritech-solutions.com</a>
+                                <a href="mailto:info@krishicube.com" className="text-gray-600 hover:text-green-700 hover:underline">info@krishicube.com</a>
                             </div>
                             <div className="flex items-center space-x-2">
                                 <MapPin className="w-5 h-5 text-green-600" />
