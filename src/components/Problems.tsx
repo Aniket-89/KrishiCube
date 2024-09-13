@@ -11,14 +11,14 @@ const Problems = () => {
                   Small-scale farmers face numerous challenges:
                 </h3>
                 <ul className="grid gap-2 py-4">
-                  <li className="flex items-center gap-2 text-gray-600 text-lg">
+                  <li className="flex items-center gap-2 text-gray-600 lg:text-lg">
                     <Tractor className="h-5 w-5 text-yellow-500" /> Limited access to affordable machinery
                   </li>
-                  <li className="flex items-center gap-2 text-gray-600 text-lg">
+                  <li className="flex items-center gap-2 text-gray-600 lg:text-lg">
 
                     <DollarSign className="h-5 w-5 text-yellow-500" /> High costs of traditional farming equipment
                   </li>
-                  <li className="flex items-center gap-2 text-gray-600 text-lg">
+                  <li className="flex items-center gap-2 text-gray-600 lg:text-lg">
 
                     <ThumbsUp className="h-5 w-5 text-yellow-500" /> Need for easy-to-use and maintain tools
                   </li>

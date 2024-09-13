@@ -36,19 +36,19 @@ const Header = () => {
         >
           About Us
         </a>
-        <Button
-          variant="outline"
-          className="text-green-700 h-9 bg-yellow-400 hover:bg-white hover:text-green-700 text-base font-medium"
-          onClick={() => {
-            const contactSection =
-              document.getElementById("contact");
+        <a
+          className="text-sm lg:text-base font-medium text-white hover:text-yellow-200"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            const contactSection = document.getElementById('contact');
             if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
+              contactSection.scrollIntoView({ behavior: 'smooth' });
             }
           }}
         >
-          Contact
-        </Button>
+          Contact Us
+        </a>
       </nav>
     </header>
   );
